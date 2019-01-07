@@ -1,0 +1,32 @@
+<view>
+    <header sex="{{user.name}}"></header>
+    <view class="block">
+        <view>{{book.name}}</view>
+    </view>
+    <view class="block">
+        <view>computedName:{{computedName}}</view>
+    </view>
+    <view>
+        length：{{length}}元
+        <button bindtap="addOne">+</button>
+        <input class="test" bindinput="bindKeyInput" data-key="length" value="{{length}}"/>
+    </view>
+    <view class="block">
+        <view>作者：{{book.auto}}</view>
+        <view>
+            金额：{{book.money}}元
+            <input class="test" bindinput="bindKeyInput" data-key="book.money" value="{{book.money}}"/>
+        </view>
+        <view>
+            测试：{{test}}元
+            <input class="test" bindinput="bindKeyInput" data-key="test" value="{{test}}"/>
+        </view>
+    </view>
+    <view class="block">
+        <view class="border_b_gray">人物</view>
+        <view class="display_table padding_b_10" wx:for="{{list}}" wx:key="{{index}}">
+            <view class="display_table_cell">{{item.id}} {{item.name}}</view>
+            <view class="display_table_cell w_30" bindtap="remove" data-index="{{index}}">删除</view>
+        </view>
+    </view>
+</view>

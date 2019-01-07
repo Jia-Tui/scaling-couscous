@@ -1,0 +1,3 @@
+
+<button bindtap="add">add</button>
+<input value="{{num}}" bindinput="bindKeyInput" data-key="num"/>

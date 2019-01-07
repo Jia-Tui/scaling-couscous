@@ -1,0 +1,211 @@
+body{
+	background: #f6f8fa;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+input{  
+	background:none;  
+	outline:none;  
+	border:0px;
+}
+.color_000{
+	color: #000;
+}
+.color_333{
+	color: #333333;
+}
+.color_666{
+	color: #666666;
+}
+.color_999{
+	color: #999999;
+}
+.color_red{
+	color: #FF2741;
+}
+.color_green{
+	color: #359647;
+}
+.color_orange{
+	color: #FE6A00;
+}
+.color_gray{
+	color: #D8D8D8;
+}
+.color_blue{
+	color: #1685ff;
+}
+.color_FFF{
+	color: #FFFFFF;
+}
+
+.bg_FFF{
+	background: #FFFFFF;
+}
+.bg_green{
+	background: #359647;
+}
+.bg_orange{
+	background: #FE6A00;
+}
+.bg_blue{
+	background: #1A86EB;
+}
+.bg_gray{
+	background: #D8D8D8;
+}
+
+.padding_10{
+	padding: 10px;
+}
+.padding_15{
+	padding: 15px;
+}
+.padding_lr_15{
+	padding: 0 15px;
+}
+.padding_tb_15{
+	padding: 15px 0;
+}
+.padding_t_10{
+	padding-top: 10px;
+}
+.padding_r_10{
+	padding-right: 10px;
+}
+.padding_b_10{
+	padding-bottom: 10px;
+}
+
+.margin_auto{
+	margin: 0 auto;
+}
+.margin_15{
+	margin: 15px;
+}
+.margin_lr_15{
+	margin: 0 15px;
+}
+.margin_t_5{
+	margin-top: 5px;
+}
+.margin_t_10{
+	margin-top: 10px;
+}
+.margin_t_15{
+	margin-top: 15px;
+}
+.margin_t_20{
+	margin-top: 20px;
+}
+.margin_t_30{
+	margin-top: 30px;
+}
+.margin_t_40{
+	margin-top: 40px;
+}
+.margin_l_10{
+	margin-left: 10px;
+}
+.margin_l_15{
+	margin-left: 15px;
+}
+.margin_r_10{
+	margin-right: 10px;
+}
+.margin_b_10{
+	margin-bottom: 10px;
+}
+
+
+.font_size_12{
+	font-size: 12px;
+}
+.font_size_13{
+	font-size: 13px;
+}
+.font_size_14{
+	font-size: 14px;
+}
+.font_size_15{
+	font-size: 15px;
+}
+.font_size_16{
+	font-size: 16px;
+}
+.font_size_18{
+	font-size: 18px;
+}
+
+.border_b_gray{
+	border-bottom: 1px solid #E6E6E6;
+}
+.border_t_gray{
+	border-top: 1px solid #E6E6E6;
+}
+.border_l_gray{
+	border-left: 1px solid #E6E6E6;
+}
+.border_r_gray{
+	border-right: 1px solid #E6E6E6;
+}
+.radius_round{
+	border-radius: 50%;
+}
+.radius_10{
+	border-radius: 10px;
+}
+.align_center{
+	text-align: center;
+}
+.align_right{
+	text-align: right;
+}
+.align_middle{
+	vertical-align: middle;
+}
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+.float_clear{
+	clear: both;
+}
+.display_flex{
+	display: flex;
+}
+.display_table{
+	display: table;
+	width: 100%;
+}
+.display_table_cell{
+	display: table-cell;
+}
+.display_webkit{
+	display: -webkit-box;
+}
+.webkit_flex{
+	-webkit-box-flex: 1;
+}
+.width_100{
+	width: 100%;
+}
+.btn{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 5px;
+}
+.shadow{
+	position: fixed;
+	z-index: 1;
+	background: rgba(0,0,0,0.30);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}

@@ -1,0 +1,15 @@
+view{
+  font-size: 12px;
+}
+input{
+  border-bottom: 1px solid gray;
+}
+.block{
+  border:1px solid gray;
+  margin: 5px;
+  padding: 10px;
+}
+.w_30{
+  width: 30px;
+  
+}
