@@ -21,7 +21,7 @@ export default function proxy() {
             }
         },
         set(target, key, value, receiver) {
-            if (!(Array.isArray(target) && key !== 'length')) !pending && setData(target, key, value)
+            if (!(Array.isArray(target) && key !== 'length'))/** !pending && */ setData(target, key, value)
             return Reflect.set(target, key, value, receiver)
         },
         deleteProperty(target, key) {

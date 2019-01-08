@@ -1,2 +1,3 @@
-<!--pages/test5/index.wxml-->
-<text>pages/test5/index.wxml</text>
+<input class="test" bindinput="bindKeyInput" data-key="name" value="{{name}}"/>
+<view >姓：{{firstName}}</view>
+<view >名：{{lastName}}</view>
