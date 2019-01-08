@@ -1,0 +1,2 @@
+<view >length:{{length}}</view>
+<button class="default" bind:tap="addOne">+</button>

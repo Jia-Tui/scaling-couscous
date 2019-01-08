@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.4.2",
 	"appid": "wx5df955d787e5c856",
-	"projectname": "%E9%87%8D%E6%9E%84",
+	"projectname": "scaling-couscous",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -61,6 +61,18 @@
 					"id": -1,
 					"name": "test4",
 					"pathName": "pages/test4/index",
+					"query": "name=Kobe"
+				},
+				{
+					"id": -1,
+					"name": "test5",
+					"pathName": "pages/test5/index",
+					"query": "name=Kobe"
+				},
+				{
+					"id": -1,
+					"name": "test6",
+					"pathName": "pages/test6/index",
 					"query": "name=Kobe"
 				}
 			]
