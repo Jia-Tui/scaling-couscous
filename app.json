@@ -4,7 +4,9 @@
     "pages/test1/index",
     "pages/test2/index",
     "pages/test3/index",
-    "pages/test4/index"
+    "pages/test4/index",
+    "pages/test6/index",
+    "pages/test5/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
