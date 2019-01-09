@@ -6,7 +6,7 @@ export default (option) => {
     if(typeof option.data === "function"){
         data = option.data()
     }else{
-        data = option.data
+        return option
     }
     let methods = option.methods
     if(option.mixins){

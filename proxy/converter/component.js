@@ -1,6 +1,12 @@
 
 import proxy from '../proxy.js'
 export default (option) => {
+    let data
+    if(typeof option.data === "function"){
+        data = option.data()
+    }else{
+        return option
+    }
     let methods = {
         ...option.methods,
         bindKeyInput(e){
@@ -18,12 +24,6 @@ export default (option) => {
                 this.data[name] = e.detail.value
             }
         },
-    }
-    let data
-    if(typeof option.data === "function"){
-        data = option.data()
-    }else{
-        data = option.data
     }
     let page = {
         ...option,
